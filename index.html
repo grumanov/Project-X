@@ -5,22 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Project X - incremental game</title>
 	<link rel="stylesheet" href="styles.css">
-	
+	<script src="scripts.js"></script>	
 </head>
-<body>
 
-<div>
-	<div id="Text">
-		Hello World!
+<body onload="startup()">
+	<div>
+		<div id="showcounter">
+			Counter: 0
+		</div>
+	</div>	
+	<div>
+		<button onclick="klick()">
+			+1
+		</button>
 	</div>
-</div>	
-
-<div>
-	<button onclick="Wechsel()">
-		Wechsel
-	</button>
-</div>
-<script src="scripts.js"></script>
-
 </body>
 </html>
